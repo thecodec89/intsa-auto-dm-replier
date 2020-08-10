@@ -64,8 +64,8 @@ perma()
 while True:
 	if perma() == False:
 		server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-		server.login("heyast578@gmail.com", "iloveloda")
-		server.sendmail("heyast578@gmail.com", "bantaibantai123497979@gmail.com", "boss, our auto message of insta had crashed due to some reasons please help!!")
+		server.login("ENTER YOUR GMAIL IN CASE IF THE SCRIPT CRASHES", "ENTER THE PASWD OF THE GMAIL")
+		server.sendmail("ENTER THE EMAIL IN WHICH YOUR LOGGED IN", "ENTER THE EMAIL U NEED TO SEDN", "boss, our auto message of insta had crashed due to some reasons please help!!")
 
 
 
